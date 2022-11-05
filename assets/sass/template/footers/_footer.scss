@@ -1,0 +1,95 @@
+.subscribe-sec {
+	background-color: $smoke-color;
+	padding: 90px 0;
+}
+.footer-wrapper {
+	background-color: $title-color;
+	--body-color: #fff;
+	overflow: hidden;
+	.ot-social {
+		a {
+			font-size: 22px;
+		}
+	}
+	.widget-area {
+		padding: 90px 0;
+		position: relative;
+	}
+	.footer-logo {
+		margin-bottom: 40px;
+	}
+}
+.footer-right {
+	text-align: right;
+}
+.footer-menu {
+	margin-bottom: 35px;
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+		margin: 0;
+	}
+	li {
+		display: inline-block;
+		margin-right: 35px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	a {
+		color: $white-color;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+}
+.payment-methods {
+	display: flex;
+	justify-content: flex-end;
+	gap: 20px;
+}
+.copyright {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	padding: 30px 0;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	color: $light-color;
+	border-top: 1px solid $border-color;
+}
+
+@include md {
+	.footer-left {
+		text-align: center;
+		margin-bottom: 75px;
+	}
+	.footer-wrapper {
+		.ot-social {
+			position: absolute;
+			bottom: 40px;
+			left: 0;
+			width: 100%;
+			justify-content: center;
+		}
+		.payment-methods {
+			display: none;
+		}
+	}
+	.footer-right {
+		text-align: left;
+	}
+	.footer-menu {
+		&-wrap {
+			display: flex;
+			justify-content: space-between;
+		}
+		li {
+			display: block;
+			margin-bottom: 27px;
+			margin-right: 0;
+		}
+		a {
+			font-size: 16px;
+		}
+	}
+}

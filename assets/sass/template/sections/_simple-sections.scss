@@ -1,0 +1,50 @@
+.page-top {
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-title {
+    margin-bottom: 30px;
+    margin-top: -0.2em;
+}
+.z-index-common {
+    position: relative;
+    z-index: 3;
+}
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+}
+.icon-group {
+    button,
+    a {
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+}
+
+.form-select {
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    text-transform: uppercase;
+    box-shadow: none !important;
+    padding: 8px 35px 8px 20px;
+}
+
+@include md {
+    .form-select {
+        font-size: 16px;
+        padding: 8px 30px 8px 15px;
+    }
+}
+
+@include sm {
+    .border-bottom {
+        .sec-btn {
+            margin-bottom: 30px;
+        }
+    }
+}

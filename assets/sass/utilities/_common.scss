@@ -1,0 +1,12 @@
+.ot-social {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    a {
+        color: $body-color;
+        font-size: 18px;
+        &:hover {
+            color: $theme-color;
+        }
+    }
+}

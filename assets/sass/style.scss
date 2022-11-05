@@ -1,0 +1,142 @@
+/*
+Template Name: Hypland
+Developer: https://mdsumonmia.com/
+Version: 1.0.0
+*/
+/*=================================
+    CSS Index Here
+==================================*/
+/*
+01. Theme Base
+    1.1. Mixin
+    1.2. Function
+    1.3. Variable
+    1.4. Typography
+
+02. Reset
+    2.1. Container
+    2.2. Grid
+    2.3. Slick Slider
+    2.4. Mobile Menu
+
+03. Utilities
+    3.1. Buttons
+    3.2. Titles
+    3.3. Common
+    3.4. Font
+    3.5. Background
+    3.6. Text Color
+
+04. Template Style
+    4.1. Header
+    4.2. Footer
+    4.3. Pagination
+    4.4. Blog
+    4.5. Hero Area
+    4.6. Simple sections
+    4.7. Newsletter
+    4.8. Faq
+    4.9. Product
+    4.10. Cart
+
+05. Spacing
+
+*/
+/*=================================
+    CSS Index End
+==================================*/
+
+
+/*=================================
+   01. Theme Base
+==================================*/
+/*------------------- 1.1. Mixin -------------------*/
+@import 'base/mixin';
+
+/*------------------- 1.2. Function -------------------*/
+@import 'base/function';
+
+/*------------------- 1.3. Variable-------------------*/
+@import 'base/variable';
+
+/*------------------- 1.4. Typography -------------------*/
+@import 'base/typography';
+
+
+/*=================================
+    02. Reset
+==================================*/
+/*------------------- 2.1. Container -------------------*/
+@import 'reset/container';
+
+/*------------------- 2.2. Grid -------------------*/
+@import 'reset/grid';
+
+/*------------------- 2.3. Slick Slider -------------------*/
+@import 'reset/slick-slider';
+
+/*------------------- 2.4. Mobile Menu -------------------*/
+@import 'reset/otmenu';
+
+
+/*=================================
+    03. Utilities
+==================================*/
+
+/*------------------- 3.1. Buttons -------------------*/
+@import 'utilities/btns';
+
+/*------------------- 3.2. Titles -------------------*/
+@import 'utilities/titles';
+
+/*------------------- 3.3. Common -------------------*/
+@import 'utilities/common';
+
+/*------------------- 3.4. Font -------------------*/
+@import 'utilities/font';
+
+/*------------------- 3.5. Background -------------------*/
+@import 'utilities/background';
+
+/*------------------- 3.6. Text Color -------------------*/
+@import 'utilities/text-color';
+
+
+/*=================================
+    04. Template Style
+==================================*/
+
+/*------------------- 4.1. Header  -------------------*/
+@import 'template/headers/header';
+
+/*------------------- 4.2. Footer  -------------------*/
+@import 'template/footers/footer';
+
+/*------------------- 4.3. Pagination  -------------------*/
+@import 'template/sections/pagination-v1';
+
+/*------------------- 4.4. Blog  -------------------*/
+@import 'template/sections/blog';
+
+/*------------------- 4.5. Hero Area  -------------------*/
+@import 'template/sections/hero';
+
+/*------------------- 4.6. Simple sections  -------------------*/
+@import 'template/sections/simple-sections';
+
+/*------------------- 4.7. Newsletter  -------------------*/
+@import 'template/sections/newsletter';
+
+/*------------------- 4.8. Faq  -------------------*/
+@import 'template/sections/faq';
+
+/*------------------- 4.9. Product  -------------------*/
+@import 'template/sections/product';
+
+/*------------------- 4.10. Cart  -------------------*/
+@import 'template/sections/cart';
+
+/*=================================
+    05. Spacing
+==================================*/
+@import 'spacing/spacing';

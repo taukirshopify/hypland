@@ -1,0 +1,20 @@
+.sec-title {
+  margin-bottom: calc(var(--section-title-space) - 14px);
+  margin-top: -0.2em;
+}
+
+.title-area,
+.sec-btn {
+  margin-bottom: var(--section-title-space);
+  .sec-title {
+    margin-bottom: 10px;
+  }
+}
+
+@include md {
+  .title-area,
+  .sec-title,
+  .sec-btn {
+    --section-title-space: 50px;
+  }
+}
