@@ -217,7 +217,7 @@
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 1.1,
+          slidesToShow: 1,
         }
       }
     ]
